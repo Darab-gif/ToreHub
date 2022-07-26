@@ -1,0 +1,14 @@
+.subabout_wrapper {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+.subabout_info {
+  padding: 20px;
+}
+
+.subabout_info button {
+  padding: 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.header_wrapper {
+  display: flex;
+}
+
+.header_info {
+  margin-top: 10rem;
+  margin-left: 5rem;
+}
+
+.header_img img {
+  height: 32rem;
+  width: 35rem;
+}
+.header_img {
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+
+.header_info .p::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 3px;
+  background-color: red;
+  left: 5.4%;
+}

@@ -1,0 +1,32 @@
+.navbar_wrapper h1 {
+  font-size: 32px;
+  margin-left: 10rem;
+  line-height: 10px;
+}
+
+.navbar_wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #999;
+  height: 5rem;
+  z-index: 99;
+}
+
+.navbar_wrapper ul {
+  display: flex;
+  gap: 3rem;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 10rem;
+}
+
+.navbar_wrapper ul li {
+  padding-top: 10px;
+  cursor: pointer;
+}
+button {
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}

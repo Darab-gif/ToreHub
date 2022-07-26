@@ -1,0 +1,35 @@
+.project_header {
+  text-align: center;
+}
+
+.project_container {
+  height: 30rem;
+  width: 20rem;
+  background-color: aqua;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.project_container .project_card {
+  padding-top: 20rem;
+  position: relative;
+  transition: all 0.4s;
+}
+
+.project_card button {
+  padding: 16px;
+  cursor: pointer;
+}
+
+.project_container:hover .project_card {
+  transform: translateY(-16px);
+}
+
+.project_layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+  width: 80%;
+  margin-left: 8rem;
+  column-gap: 3rem;
+}

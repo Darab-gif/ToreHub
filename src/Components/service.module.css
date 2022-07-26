@@ -1,0 +1,39 @@
+.service_header {
+  text-align: center;
+}
+
+.service_header p {
+  text-align: center;
+}
+
+.service_card {
+  width: 20rem;
+  height: 15rem;
+  padding: 20px;
+  padding-top: 70px;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  box-shadow: 0px 9px 9px 0 #9d9d9d;
+  transition: all 0.3s;
+}
+
+.service_card div {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: aqua;
+  margin-left: 6rem;
+}
+
+.service_card:hover {
+  transform: translateY(-10px);
+}
+.service_layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+  width: 80%;
+  margin-left: 8rem;
+  column-gap: 3rem;
+}
