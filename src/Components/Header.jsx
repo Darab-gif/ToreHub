@@ -10,7 +10,7 @@ const Header = () => {
         <h1>
           We are available <br /> for Marketing
         </h1>
-        <p>
+        <p className={style.header_note}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod <br /> temporthem incididunt ut labore et dolore magna aliqua.
         </p>

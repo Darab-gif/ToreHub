@@ -1,30 +1,96 @@
+.project_wrapper {
+  margin-top: 10rem;
+}
 .project_header {
   text-align: center;
+  padding-top: 2rem;
+  width: 50%;
+  margin-left: 22rem;
 }
 
+.project_header h1 {
+  font-size: var(--fs-2);
+}
+
+.project_header p {
+  margin-block: 5px 35px;
+  font-size: 20px;
+  color: var(--gray-web);
+}
 .project_container {
-  height: 30rem;
-  width: 20rem;
-  background-color: aqua;
   text-align: center;
   transition: all 0.3s;
+  position: relative;
+  border-radius: var(--radius-8);
+  overflow: hidden;
 }
 
+.project_container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--black);
+  opacity: 0.5;
+  transition: var(--transition-2);
+}
+
+.project_container:hover {
+  opacity: 0.8;
+}
+.img_cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project_container figure {
+  width: 510;
+  height: 700;
+}
 .project_container .project_card {
-  padding-top: 20rem;
-  position: relative;
-  transition: all 0.4s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  z-index: 1;
+  transition: var(--transition-2);
 }
 
 .project_card button {
-  padding: 16px;
+  max-width: max-content;
+  color: var(--white-1);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-700);
+  padding: 10px 10px;
+  border-radius: var(--radius-5);
+  transition: var(--transition-1);
+  background-image: var(--gradient);
+  background-size: 1000%;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 
+.project_card button:hover {
+  background-position: bottom right;
+}
 .project_container:hover .project_card {
-  transform: translateY(-16px);
+  transform: translateY(-20px);
 }
 
+.project_card h1 {
+  color: var(--lavender-gray);
+  font-size: var(--fs-6);
+  line-height: 1;
+}
+
+.project_card p {
+  color: var(--white-1);
+  margin-block: 12px 15px;
+}
 .project_layout {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

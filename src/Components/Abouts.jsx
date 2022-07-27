@@ -7,9 +7,9 @@ const Abouts = () => {
     <section className={style.about_wrapper}>
       <figure>
         <img src={img} alt="" />
-        <span>
+        <button>
           <img src="" alt="" />
-        </span>
+        </button>
       </figure>
       <section>
         <h1>About Us</h1>

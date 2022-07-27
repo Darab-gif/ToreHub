@@ -2,6 +2,7 @@ import React from "react";
 import Abouts from "./Components/Abouts";
 import Blogs from "./Components/Blogs";
 import Contact from "./Components/Contacts";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import NavBar from "./Components/NavBar";
 import Projects from "./Components/Projects";
@@ -19,6 +20,7 @@ function App() {
       <SubAbout />
       <Blogs />
       <Contact />
+      <Footer />
     </section>
   );
 }

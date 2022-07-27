@@ -1,0 +1,9 @@
+.footer_container {
+  display: flex;
+  gap: 20rem;
+  margin-left: 10rem;
+}
+
+.footer_wrapper {
+  text-align: center;
+}

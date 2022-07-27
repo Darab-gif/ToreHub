@@ -1,0 +1,18 @@
+.contact_wrapper {
+  text-align: center;
+}
+
+.contact_form {
+  padding: 60px;
+}
+
+.contact_form input {
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+.contact_form textarea {
+  margin-top: 20px;
+  width: 60%;
+}

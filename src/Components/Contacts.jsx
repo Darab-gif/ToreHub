@@ -10,7 +10,7 @@ const Contact = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
-      <form action="">
+      <form action="" className={style.contact_form}>
         <input type="text" required placeholder="Your Name*" />
         <input
           type="email"
@@ -28,11 +28,15 @@ const Contact = () => {
           cols="30"
           rows="10"
           placeholder="Your Message...*"
-        ></textarea>
-        <input type="checkbox" name="" id="" />
-        <p>
-          Accept <span>Terms of services</span>and <span>Privacy Pulicy</span>
-        </p>
+        ></textarea>{" "}
+        <br />
+        <span>
+          <input type="checkbox" name="" id="" />
+          <span>
+            Accept <span>Terms of services</span>and <span>Privacy Pulicy</span>
+          </span>
+        </span>
+        <br />
         <input type="submit" value="Send Message" />
       </form>
     </section>
