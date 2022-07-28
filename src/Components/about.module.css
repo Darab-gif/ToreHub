@@ -1,5 +1,41 @@
 .about_wrapper {
   display: flex;
+  gap: 5rem;
   margin-top: 10rem;
   background-color: var(--white-2);
+}
+
+.about_wrapper figure {
+  position: relative;
+  border-radius: var(--radius-5);
+  overflow: hidden;
+  margin-block-end: 25px;
+  width: 720;
+  height: 960;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.img_cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about_container {
+  width: 40%;
+  margin-top: 7rem;
+}
+
+.about_title {
+  margin-block-end: 5px;
+  font-size: 2rem;
+  font-family: var(--fs-roboto);
+}
+
+.about_container p {
+  margin-block-end: 18px;
+  font-family: var(--fs-roboto);
+  line-height: 1.4;
+  color: var(--gray-web);
 }

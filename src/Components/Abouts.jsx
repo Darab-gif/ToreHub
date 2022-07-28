@@ -6,18 +6,25 @@ const Abouts = () => {
   return (
     <section className={style.about_wrapper}>
       <figure>
-        <img src={img} alt="" />
+        <img
+          src={img}
+          alt=""
+          width="720"
+          height="960"
+          loading="lazy"
+          className={style.img_cover}
+        />
         <button>
           <img src="" alt="" />
         </button>
       </figure>
-      <section>
-        <h1>About Us</h1>
+      <section className={style.about_container}>
+        <h1 className={style.about_title}>About Us</h1>
         <p>
           Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis
           eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.
         </p>
-        <div>
+        <div className={style.about_info}>
           <h2>Who We Are</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -26,7 +33,7 @@ const Abouts = () => {
             dicta sunt explicabo.
           </p>
         </div>
-        <div>
+        <div className={style.about_box}>
           <h2>Our Success</h2>
           <p>
             <span></span>Lorem Ipsum is simply dummy text of the printing and
@@ -42,7 +49,7 @@ const Abouts = () => {
             random text. It has roots in a piece of classical Latin literature.
           </p>
         </div>
-        <div>
+        <div className={style.about_mission}>
           <h2>Our Mission</h2>
           <p>
             At vero eos et accusamus et iusto odio dignissimos ducimus qui
