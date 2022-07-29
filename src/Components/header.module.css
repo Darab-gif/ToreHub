@@ -65,3 +65,43 @@
   height: 100%;
   background-color: var(--red-crayola);
 }
+@media (max-width: 768px) {
+  .header_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .header_info {
+    margin-top: 7rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .header_info .p {
+    font-size: 1rem;
+  }
+  .header_info h1 {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    padding-block: 1rem;
+  }
+
+  .header_info p {
+    font-size: 1rem;
+    font-weight: 100;
+    width: 99%;
+    line-height: 30px;
+  }
+  .header_info button {
+    font-size: 1rem;
+  }
+  .header_info .p::before {
+    display: none;
+  }
+  .header_img img {
+    height: 20rem;
+    width: 18rem;
+  }
+  .header_img {
+    margin-left: 0px;
+    margin-top: 55px;
+  }
+}
