@@ -42,11 +42,52 @@
 .service_card div {
   height: 70px;
   width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-1);
+  font-size: 35px;
   border-radius: 100%;
-  background-color: aqua;
+  background-color: #13c4a1;
   margin-left: 6rem;
 }
 
+.service_card:nth-child(2) div {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #6610f2;
+  margin-left: 6rem;
+}
+
+.service_card:nth-child(3) div {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #ffb700;
+  margin-left: 6rem;
+}
+.service_card:nth-child(4) div {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #fc3549;
+  margin-left: 6rem;
+}
+.service_card:nth-child(5) div {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #00d280;
+  margin-left: 6rem;
+}
+.service_card:nth-child(6) div {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #ff612f;
+  margin-left: 6rem;
+}
 .service_card:hover {
   transform: translateY(-10px);
 }

@@ -18,11 +18,13 @@ function Blogs() {
         </p>
       </div>
       <section className={style.blog_container}>
-        <figure className={style.blog_img}>
-          <img src={img1} alt="Blog1" />
+        <div className={style.blog_box}>
+          <figure className={style.blog_img}>
+            <img src={img1} alt="Blog1" className={style.img_cover} />
+          </figure>
           <p>July 7, 2022</p>
           <h1>How to Become a Successful Entry Level UX Designer</h1>
-        </figure>
+        </div>
         <aside className={style.blog_aside}>
           <div className={style.blog_card}>
             <figure className={style.blog_card_img}>

@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../Assets/project-2.jpg";
 import style from "./about.module.css";
+import { AiFillCaretRight } from "react-icons/ai";
 
 const Abouts = () => {
   return (
@@ -14,8 +15,8 @@ const Abouts = () => {
           loading="lazy"
           className={style.img_cover}
         />
-        <button>
-          <img src="" alt="" />
+        <button className={style.play}>
+          <AiFillCaretRight />
         </button>
       </figure>
       <section className={style.about_container}>

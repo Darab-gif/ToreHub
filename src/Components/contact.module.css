@@ -1,18 +1,123 @@
 .contact_wrapper {
+  margin-top: 5rem;
+  height: 45rem;
+  background-color: var(--white-2);
+}
+.contact_info {
+  text-align: center;
+  margin-left: 18rem;
+  width: 60%;
+  padding-top: 3rem;
+}
+
+.contact_info h1 {
+  font-size: 3rem;
+  font-family: var(--ff-league-spartan);
+}
+
+.contact_info p {
+  color: var(--gray-web);
+  font-size: 18px;
+  line-height: 1.4;
+  margin-block: 5px 35px;
   text-align: center;
 }
-
 .contact_form {
+  background-color: var(--white-1);
   padding: 60px;
+  border-radius: var(--radius-2);
+  margin-block-end: 30px;
+  box-shadow: var(--shadow-1);
+  width: 60rem;
+  margin-left: 13rem;
 }
 
-.contact_form input {
-  padding: 20px;
-  margin-left: 30px;
-  margin-top: 25px;
+.input_field {
+  background-color: var(--white-2);
+  color: var(--eerie-black);
+  font-size: var(--fs-5);
+  padding: 15px;
+  border: none;
+  width: 70%;
+  border-radius: var(--radius-2);
+  outline: 1px solid transparent;
+  outline-offset: 0;
+  margin-block-end: 15px;
 }
 
+.input_field::-webkit-inner-spin-button {
+  display: none;
+}
+
+.input_field:focus {
+  outline-color: var(--red-crayola);
+}
+
+.input_field::placeholder {
+  transition: var(--transition-1);
+}
+
+.input-field:focus::placeholder {
+  opacity: 0;
+}
+
+.input_wrapper {
+  display: flex;
+  gap: 4rem;
+}
 .contact_form textarea {
-  margin-top: 20px;
-  width: 60%;
+  resize: vertical;
+  min-height: 80px;
+  height: 100px;
+  width: 100%;
+  max-height: 200px;
+  overscroll-behavior: contain;
+}
+.checklist {
+  width: max-content;
+  margin-block-start: 5px;
+  cursor: pointer;
+  accent-color: var(--red-crayola);
+}
+
+.checklist_wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-block-end: 15px;
+}
+.label_link {
+  display: inline-block;
+  color: var(--red-crayola);
+}
+
+.label_link:is(:hover, :focus) {
+  text-decoration: underline;
+}
+
+.label a {
+  text-decoration: none;
+}
+
+.checkbox_wrapper .label {
+  font-size: var(--fs-6);
+}
+
+.btn {
+  max-width: max-content;
+  color: var(--white-1);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-700);
+  padding: 10px 10px;
+  border-radius: var(--radius-5);
+  transition: var(--transition-1);
+  background-image: var(--gradient);
+  background-size: 1000%;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-position: bottom right;
 }

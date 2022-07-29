@@ -1,5 +1,11 @@
 import React from "react";
 import style from "./service.module.css";
+import { AiOutlineTool } from "react-icons/ai";
+import { BsFillChatSquareFill } from "react-icons/bs";
+import { AiFillBulb } from "react-icons/ai";
+import { AiOutlineLaptop } from "react-icons/ai";
+import { AiOutlineShop } from "react-icons/ai";
+import { AiOutlineTablet } from "react-icons/ai";
 
 const Service = () => {
   return (
@@ -13,7 +19,9 @@ const Service = () => {
       </div>
       <section className={style.service_layout}>
         <div className={style.service_card}>
-          <div></div>
+          <div>
+            <BsFillChatSquareFill />
+          </div>
           <h2>SEO Optimatization</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit tatem
@@ -22,7 +30,9 @@ const Service = () => {
           </p>
         </div>
         <div className={style.service_card}>
-          <div></div>
+          <div>
+            <AiOutlineLaptop />
+          </div>
           <h2>Digital Marketing</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit tatem
@@ -31,7 +41,9 @@ const Service = () => {
           </p>
         </div>
         <div className={style.service_card}>
-          <div></div>
+          <div>
+            <AiFillBulb />
+          </div>
           <h2>Market Research</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit tatem
@@ -40,7 +52,9 @@ const Service = () => {
           </p>
         </div>
         <div className={style.service_card}>
-          <div></div>
+          <div>
+            <AiOutlineTablet />
+          </div>
           <h2>Keywords Targeting</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit tatem
@@ -49,7 +63,9 @@ const Service = () => {
           </p>
         </div>
         <div className={style.service_card}>
-          <div></div>
+          <div>
+            <AiOutlineShop />
+          </div>
           <h2>Email Marketing</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit tatem
@@ -58,7 +74,9 @@ const Service = () => {
           </p>
         </div>
         <div className={style.service_card}>
-          <div></div>
+          <div>
+            <AiOutlineTool />
+          </div>
           <h2>Marketing & Reporting</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit tatem
