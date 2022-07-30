@@ -53,4 +53,27 @@ p {
   background-color: var(--white-1);
   font-weight: var(--fw-700);
   border-radius: 5px;
+  transition: var(--transition-1);
+}
+.subabout_info button:hover {
+  background-color: var(--black);
+  color: var(--white-1);
+}
+@media (max-width: 768px) {
+  .subabout_wrapper {
+    height: 40%;
+    margin-top: 13px;
+  }
+  .subabout_info p {
+    font-size: 0.9rem;
+    font-weight: 100;
+  }
+  .subabout_info h1 {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  .subabout_info button {
+    font-size: 18px;
+  }
 }

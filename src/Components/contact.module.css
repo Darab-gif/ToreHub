@@ -121,3 +121,62 @@
 .btn:hover {
   background-position: bottom right;
 }
+
+@media (max-width: 768px) {
+  .contact_wrapper {
+    height: 65rem;
+  }
+  .contact_info {
+    margin-top: 7rem;
+    margin-left: 2rem;
+    width: 80%;
+    text-align: center;
+    margin-top: 1px;
+  }
+
+  .contact_info h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
+    line-height: 2.3rem;
+    padding-block: 1rem;
+  }
+
+  .contact_info p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    width: 100%;
+    line-height: 30px;
+  }
+  .contact_form {
+    margin-left: 1rem;
+    width: 90%;
+  }
+  .input_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: -3rem;
+  }
+  .input_field {
+    width: 14rem;
+  }
+  .input_field::placeholder {
+    font-size: 18px;
+  }
+  .contact_form textarea {
+    width: 14rem;
+    margin-left: -3rem;
+  }
+  .checklist_wrapper {
+    margin-left: -3rem;
+  }
+  .label p {
+    font-size: 14px;
+    color: var(--gray-web);
+  }
+  .btn {
+    margin-left: -3rem;
+    font-size: 16px;
+  }
+}

@@ -100,3 +100,63 @@
   column-gap: 2rem;
   margin-top: 3rem;
 }
+
+@media (max-width: 768px) {
+  .service_wrapper {
+    height: 130rem;
+  }
+  .service_header {
+    margin-top: 7rem;
+    margin-left: 2rem;
+    width: 80%;
+    text-align: center;
+    margin-top: 1px;
+  }
+
+  .service_header h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2.3rem;
+    padding-block: 1rem;
+  }
+
+  .service_header p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    width: 100%;
+    line-height: 30px;
+  }
+  .service_layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service_card {
+    margin-left: -8rem;
+    padding: 5px 3px;
+    width: 16rem;
+    height: 15rem;
+  }
+
+  .service_card div,
+  .service_card:nth-child(2) div,
+  .service_card:nth-child(3) div,
+  .service_card:nth-child(4) div,
+  .service_card:nth-child(5) div,
+  .service_card:nth-child(6) div {
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 3px;
+  }
+  .service_card h2 {
+    font-size: 1rem;
+  }
+
+  .service_card p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    width: 100%;
+    line-height: 30px;
+  }
+}

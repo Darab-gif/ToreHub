@@ -51,14 +51,16 @@ const Contact = () => {
         <div className={style.checklist_wrapper}>
           <input type="checkbox" name="" id="" className={style.checklist} />
           <label for="terms" className={style.label}>
-            Accept{" "}
-            <a href="/" className={style.label_link}>
-              Terms of Services
-            </a>{" "}
-            and{" "}
-            <a href="/" className={style.label_link}>
-              Privacy Policy
-            </a>
+            <p>
+              Accept
+              <a href="/" className={style.label_link}>
+                Terms of Services
+              </a>
+              and
+              <a href="/" className={style.label_link}>
+                Privacy Policy
+              </a>
+            </p>
           </label>
         </div>
 
