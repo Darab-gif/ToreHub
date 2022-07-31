@@ -55,7 +55,7 @@ const Contact = () => {
               Accept
               <a href="/" className={style.label_link}>
                 Terms of Services
-              </a>
+              </a>{" "}
               and
               <a href="/" className={style.label_link}>
                 Privacy Policy

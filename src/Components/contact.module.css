@@ -102,7 +102,14 @@
 .checkbox_wrapper .label {
   font-size: var(--fs-6);
 }
-
+.label p {
+  font-size: 14px;
+  margin-block: 3px;
+  color: var(--gray-web);
+}
+.label p a {
+  margin-left: 5px;
+}
 .btn {
   max-width: max-content;
   color: var(--white-1);

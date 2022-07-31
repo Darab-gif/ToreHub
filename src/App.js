@@ -8,10 +8,11 @@ import NavBar from "./Components/NavBar";
 import Projects from "./Components/Projects";
 import Service from "./Components/Service";
 import SubAbout from "./Components/SubAbout";
+import "./App.css";
 
 function App() {
   return (
-    <section>
+    <section className="app_wrapper">
       <NavBar />
       <Header />
       <Service />

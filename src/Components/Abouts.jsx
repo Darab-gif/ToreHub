@@ -2,7 +2,7 @@ import React from "react";
 import img from "../Assets/project-2.jpg";
 import style from "./about.module.css";
 import { AiFillCaretRight } from "react-icons/ai";
-
+import { AiOutlineCheck } from "react-icons/ai";
 const Abouts = () => {
   return (
     <section className={style.about_wrapper}>
@@ -36,19 +36,33 @@ const Abouts = () => {
         </div>
         <div className={style.about_box}>
           <h2>Our Success</h2>
-          <p>
-            <span></span>Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry.
-          </p>
-          <p>
-            <span></span>It is a long established fact that a reader will be
-            distracted by the readable content of a page when looking at its
-            layout.
-          </p>
-          <p>
-            <span></span>Contrary to popular belief, Lorem Ipsum is not simply
-            random text. It has roots in a piece of classical Latin literature.
-          </p>
+          <div className={style.service_text}>
+            <p>
+              <span className={style.checkBtn}>
+                <AiOutlineCheck />
+              </span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <div className={style.service_text}>
+            <p>
+              <span className={style.checkBtn}>
+                <AiOutlineCheck />
+              </span>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div className={style.service_text}>
+            <p>
+              <span className={style.checkBtn}>
+                <AiOutlineCheck />
+              </span>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature.
+            </p>
+          </div>
         </div>
         <div className={style.about_mission}>
           <h2>Our Mission</h2>

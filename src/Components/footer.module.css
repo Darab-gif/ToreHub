@@ -5,7 +5,7 @@
 .footer_container {
   display: flex;
   gap: 12rem;
-  margin-left: 10rem;
+  margin-left: 5rem;
 }
 
 .footer_wrapper {
@@ -36,7 +36,7 @@
   color: var(--red-crayola);
   font-size: 35px;
   padding: 14px;
-  border-radius: 80%;
+  border-radius: 100%;
   transition: var(--transition-1);
 }
 
@@ -70,5 +70,9 @@
   .footer_card {
     display: flex;
     gap: 5px;
+    width: 95%;
+  }
+  .footer_wrapper {
+    height: 35rem;
   }
 }
