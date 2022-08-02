@@ -98,10 +98,10 @@
   }
   .header_img img {
     height: 20rem;
-    width: 18rem;
+    width: 20rem;
   }
   .header_img {
-    margin-left: 0px;
+    margin-left: 27px;
     margin-top: 55px;
   }
 }

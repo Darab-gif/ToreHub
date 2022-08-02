@@ -144,23 +144,27 @@
     flex-direction: column;
   }
   .blog_box {
-    margin-left: -9.3rem;
+    margin-left: -10rem;
     margin-top: 25px;
   }
   .blog_box p {
     font-size: 0.9rem;
     font-weight: 800;
+    margin-left: 48px;
   }
   .blog_box h1 {
     font-size: 1rem;
     font-weight: 800;
+    margin-left: 48px;
   }
   .blog_img {
     height: 18rem;
     width: 16rem;
+    margin-left: 54px;
+    margin-top: 20px;
   }
   .blog_card {
-    margin-left: -9.3rem;
+    margin-left: -6.5rem;
     display: flex;
     width: 16rem;
     flex-direction: column;
@@ -176,5 +180,8 @@
   .blog_card h1 {
     font-size: 1rem;
     font-weight: 800;
+  }
+  .blog_card div {
+    margin-bottom: 20px;
   }
 }

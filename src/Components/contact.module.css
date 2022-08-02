@@ -166,13 +166,13 @@
     margin-left: -3rem;
   }
   .input_field {
-    width: 14rem;
+    width: 18rem;
   }
   .input_field::placeholder {
     font-size: 18px;
   }
   .contact_form textarea {
-    width: 14rem;
+    width: 18rem;
     margin-left: -3rem;
   }
   .checklist_wrapper {

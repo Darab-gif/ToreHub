@@ -7,8 +7,6 @@ import { AiOutlineLaptop } from "react-icons/ai";
 import { AiOutlineShop } from "react-icons/ai";
 import { AiOutlineTablet } from "react-icons/ai";
 
-
-
 const Service = () => {
   return (
     <section className={style.service_wrapper}>

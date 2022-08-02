@@ -93,18 +93,19 @@
 }
 @media (max-width: 768px) {
   .navbar_wrapper h1 {
-    margin-left: 0;
+    margin-left: 15px;
     font-size: 22px;
-    font-weight: var(--fw-700);
+    font-weight: 900;
+    font-family: var(--ff-roboto);
   }
   .navbar_list {
     position: absolute;
     background-color: var(--white-1);
     box-shadow: var(--shadow-2);
     display: flex;
-    top: 83px;
+    top: 80px;
     left: 2rem;
-    width: 15rem;
+    width: 18rem;
     flex-direction: column;
     transition: var(--transition-1);
   }
@@ -116,7 +117,7 @@
   }
   .navbar_list li {
     font-size: 16px;
-    margin-left: 25px;
+    margin-left: 35px;
     padding-block: 2px;
   }
   .navbar_list li::after {
@@ -127,5 +128,6 @@
   }
   .nav_icon {
     display: block;
+    margin-right: 12px;
   }
 }
